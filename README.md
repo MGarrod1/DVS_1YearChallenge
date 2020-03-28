@@ -7,6 +7,8 @@ Out of the data about 11573 members I was able to find 2120 unique geographic lo
 
 This approach is far from the optimal solution which would involve solving the [travelling salesman problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) on this set of points. I also cheat by allowing the walker to “tunnel” through the earth (since distances are computed from the positions in 3D space) meaning that the distance travelled is underestimated.
 
+![Alt Text](https://github.com/MGarrod1/DVS_1YearChallenge/blob/master/around_the_world.gif)
+
 # Requirements
 
 The plots were created using Python 3.7 on an Anaconda distribution (conda version : 4.7.12).
